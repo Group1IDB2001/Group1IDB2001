@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "14Cy655l5wkfhbKHIj2d8Gu8lldpDX7FZJYJpL5dtBS7ajS4hTlgtvlvgX8EXlrP3x2k/achAqslbasdNdG+gQ==",
+  "dgSpecHash": "rTHuGWdV2I6WpDa2OVIUnb9nsgzuxi2QREgUwSjkJamLMD3S2+SZqz2igpVL/+62dB1PSWilvurkbWHCvB0IVA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Showl\\source\\repos\\Group1IDB2001\\Project_3\\Project_3.csproj",
+  "projectFilePath": "C:\\Users\\Showl\\Documents\\GitHub\\Group1IDB2001\\Project_3\\Project_3.sln\\Group1IDB2001\\Project_3\\Project_3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Showl\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Showl\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
