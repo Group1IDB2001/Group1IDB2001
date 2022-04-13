@@ -2,5 +2,8 @@
 {
     public class Cover
     {
+        public int CoverID { get; set; }
+        public string CoverLink { get; set; }
+
     }
 }
