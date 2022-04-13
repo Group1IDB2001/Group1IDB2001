@@ -496,3 +496,14 @@ C:\Users\Hp\Pictures\ООП\Group1IDB2001\Project_3\obj\Debug\net6.0\Project_3.d
 C:\Users\Hp\Pictures\ООП\Group1IDB2001\Project_3\obj\Debug\net6.0\ref\Project_3.dll
 C:\Users\Hp\Pictures\ООП\Group1IDB2001\Project_3\obj\Debug\net6.0\Project_3.pdb
 C:\Users\Hp\Pictures\ООП\Group1IDB2001\Project_3\obj\Debug\net6.0\Project_3.genruntimeconfig.cache
+C:\Users\Showl\Documents\GitHub\Group1IDB2001\Project_3\Project_3.sln\Group1IDB2001\Project_3\obj\Debug\net6.0\Project_3.csproj.AssemblyReference.cache
+C:\Users\Showl\Documents\GitHub\Group1IDB2001\Project_3\Project_3.sln\Group1IDB2001\Project_3\obj\Debug\net6.0\Project_3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Showl\Documents\GitHub\Group1IDB2001\Project_3\Project_3.sln\Group1IDB2001\Project_3\obj\Debug\net6.0\Project_3.AssemblyInfoInputs.cache
+C:\Users\Showl\Documents\GitHub\Group1IDB2001\Project_3\Project_3.sln\Group1IDB2001\Project_3\obj\Debug\net6.0\Project_3.AssemblyInfo.cs
+C:\Users\Showl\Documents\GitHub\Group1IDB2001\Project_3\Project_3.sln\Group1IDB2001\Project_3\obj\Debug\net6.0\Project_3.csproj.CoreCompileInputs.cache
+C:\Users\Showl\Documents\GitHub\Group1IDB2001\Project_3\Project_3.sln\Group1IDB2001\Project_3\obj\Debug\net6.0\Project_3.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Showl\Documents\GitHub\Group1IDB2001\Project_3\Project_3.sln\Group1IDB2001\Project_3\obj\Debug\net6.0\Project_3.RazorAssemblyInfo.cache
+C:\Users\Showl\Documents\GitHub\Group1IDB2001\Project_3\Project_3.sln\Group1IDB2001\Project_3\obj\Debug\net6.0\Project_3.RazorAssemblyInfo.cs
+C:\Users\Showl\Documents\GitHub\Group1IDB2001\Project_3\Project_3.sln\Group1IDB2001\Project_3\obj\Debug\net6.0\Project_3.dll
+C:\Users\Showl\Documents\GitHub\Group1IDB2001\Project_3\Project_3.sln\Group1IDB2001\Project_3\obj\Debug\net6.0\refint\Project_3.dll
+C:\Users\Showl\Documents\GitHub\Group1IDB2001\Project_3\Project_3.sln\Group1IDB2001\Project_3\obj\Debug\net6.0\Project_3.pdb

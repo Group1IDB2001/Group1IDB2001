@@ -9,6 +9,7 @@ namespace Project_3.DAL
     {
         public LibraContext() : base("LibraContext")
         {
+
         }
         public DbSet<Book> Books { get; set; }
         public DbSet<Author> Authors { get; set; }

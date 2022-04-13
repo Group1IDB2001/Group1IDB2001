@@ -14,7 +14,7 @@ namespace Project_3.Models.Entity
         public List<int> TagID = new List<int>() { 0 };
         public int? Year { get; set; }
         public int CoverID { get; set; }
-        public List<int> TypeID = new List<int>() { 0 };
+        public List<int> TypeID = new List<int>() { 0 }; // "00000000-0000-0000-0000-00000000"
         public int LanguageID  { get; set; }
         public int? CountryID { get; set; }
         public int? DataID  { get; set; }
