@@ -15,7 +15,7 @@ namespace Project_3.Controllers
 
         public IActionResult Index()
         {
-            var books =
+            //var books =
             return View();
         }
 

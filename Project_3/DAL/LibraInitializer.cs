@@ -15,7 +15,7 @@ namespace Project_3.DAL
         {
             var Books = new List<Book>
             {
-                new Book{BookName="Конституция",AuthorID=0,Year=1993,LanguageID=0,CoverID=0}
+                //new Book{BookName="Конституция",AuthorID=0,Year=1993,LanguageID=0,CoverID=0}
             };
 
             
