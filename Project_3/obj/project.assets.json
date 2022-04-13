@@ -9291,23 +9291,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Hp\\.nuget\\packages\\": {},
+    "C:\\Users\\Showl\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hp\\Pictures\\ООП\\Group1IDB2001\\Project_3\\Project_3.csproj",
+      "projectUniqueName": "C:\\Users\\Showl\\Documents\\GitHub\\Group1IDB2001\\Project_3\\Project_3.sln\\Group1IDB2001\\Project_3\\Project_3.csproj",
       "projectName": "Project_3",
-      "projectPath": "C:\\Users\\Hp\\Pictures\\ООП\\Group1IDB2001\\Project_3\\Project_3.csproj",
-      "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hp\\Pictures\\ООП\\Group1IDB2001\\Project_3\\obj\\",
+      "projectPath": "C:\\Users\\Showl\\Documents\\GitHub\\Group1IDB2001\\Project_3\\Project_3.sln\\Group1IDB2001\\Project_3\\Project_3.csproj",
+      "packagesPath": "C:\\Users\\Showl\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Showl\\Documents\\GitHub\\Group1IDB2001\\Project_3\\Project_3.sln\\Group1IDB2001\\Project_3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Showl\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -9401,7 +9401,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
