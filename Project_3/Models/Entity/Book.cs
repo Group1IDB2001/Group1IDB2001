@@ -5,78 +5,20 @@ namespace Project_3.Models.Entity
 {
     public partial class Book
     {
-        public int BookId { get; set; }
+        public Guid BookId { get; set; }
         public string BookName { get; set; }
-        public int AuthorID { get; set; }
+        public Guid AuthorID { get; set; }
 
-        public List<int> GenreID = new List<int>() { 0 };
+        public List<Guid> GenreID = new List<Guid>() { Guid.Parse("00000000-0000-0000-0000-00000000") };
 
-        public List<int> TagID = new List<int>() { 0 };
+        public List<Guid> TagID = new List<Guid>() { Guid.Parse("00000000-0000-0000-0000-00000000") };
         public int? Year { get; set; }
-        public int CoverID { get; set; }
-        public List<int> TypeID = new List<int>() { 0 }; // "00000000-0000-0000-0000-00000000"
-        public int LanguageID  { get; set; }
-        public int? CountryID { get; set; }
-        public int? DataID  { get; set; }
+        public Guid CoverID { get; set; }
+        public List<Guid> TypeID = new List<Guid>() { Guid.Parse("00000000-0000-0000-0000-00000000") }; // "00000000-0000-0000-0000-00000000"
+        public Guid LanguageID  { get; set; }
+        public Guid? CountryID { get; set; }
+        public Guid? DataID  { get; set; }
         public string? aboutBook { get; set; }
-
-<<<<<<< Updated upstream
-=======
-        public IEnumerable<Book> ShowTenBooks(int PageNumber) //  Возвращает 1 страницу (10 обьектов Book) из всего каталога с указанным номером
-        {
-            IEnumerable < Book > Page = new List<Book>();
-            return Page;
-        }
-
-        public IEnumerable<Book> SelectBooksByAuthor (int PageNumber,int AuthorID) // Возвращает 1 страницу Book с указанным AuthorID
-        {
-            IEnumerable<Book> Page = new List<Book>();
-            return Page;
-        }
-
-        public IEnumerable<Book> SelectBooksByGenre(int PageNumber, int GenreID) // Возвращает 1 страницу Book с указанным GenreID
-        {
-            IEnumerable<Book> Page = new List<Book>();
-            return Page;
-        }
-
-        public IEnumerable<Book> SelectBooksByType(int PageNumber, int TypeID) // Возвращает 1 страницу Book с указанным TypeID
-        {
-            IEnumerable<Book> Page = new List<Book>();
-            return Page;
-        }
-
-        public IEnumerable<Book> SelectBooksByLanguage(int PageNumber, int LanguageID) // Возвращает 1 страницу Book с указанным LanguageID
-        {
-            IEnumerable<Book> Page = new List<Book>();
-            return Page;
-        }
-
-        public IEnumerable<Book> SelectBooksByCountry(int PageNumber, int CountryID) // Возвращает 1 страницу Book с указанным CountryID
-        {
-            IEnumerable<Book> Page = new List<Book>();
-            return Page;
-        }
-
-        public IEnumerable<Book> SortBooksByYearAscending(int PageNumber) // Возвращает 1 страницу Book , отсортированных по году издания в порядке возрастания
-        {
-            IEnumerable<Book> Page = new List<Book>();
-            return Page;
-        }
-
-        public IEnumerable<Book> SortBooksByYearDescending(int PageNumber) // Возвращает 1 страницу Book , отсортированных по году издания в порядке убывания
-        {
-            IEnumerable<Book> Page = new List<Book>();
-            return Page;
-        }
-
-        public IEnumerable<Book> SearchBookByName(int PageNumber,string Name) // Возвращает 1 страницу Book , имя которых содержит заданную строку
-        {
-            IEnumerable<Book> Page = new List<Book>();
-            return Page;
-        }
-
->>>>>>> Stashed changes
 
     }
 }
