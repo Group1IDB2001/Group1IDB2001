@@ -4,9 +4,7 @@
     {
         public Guid TagID { get; set; }
         public string TagName { get; set; }
-
-        public List<Guid> AuthorID = new List<Guid>() { Guid.Parse("00000000-0000-0000-0000-00000000") };
-
-        public List<Guid> BookID = new List<Guid>() { Guid.Parse("00000000-0000-0000-0000-00000000") };
+        public string? TagDescription { get; set; }
+        public Guid UserID  { get; set; }
     }
 }

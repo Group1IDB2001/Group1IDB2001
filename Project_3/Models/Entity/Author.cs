@@ -9,14 +9,11 @@ namespace Project_3.Models.Entity
     {
         public Guid AuthorId { get; set; }
         public string AuthorName { get; set; }  
+        public int AuthorYearOfBorn { get; set; }
+        public int AuthorStatus { get; set; }
 
-        public List<Guid> BookID = new List<Guid>() { Guid.Parse("00000000-0000-0000-0000-00000000") };
-
-        public List<Guid> GenreID = new List<Guid>() { Guid.Parse("00000000-0000-0000-0000-00000000") };
-        public Guid TagID { get; set; }
-        public Guid LanguageID { get; set; }
-        public Guid CountryID { get; set; }
-        public string? aboutAuthor { get; set; }
+        public int? AuthorYearOfDeath { get; set; }
+        public string? AuthorDescription { get; set; }
 
     }
 }
