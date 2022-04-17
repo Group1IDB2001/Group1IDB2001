@@ -5,5 +5,6 @@
         public Guid AuthorCountryID { get; set; }
         public Guid AuthorID { get; set; }
         public Guid CountryID { get; set; }
+        public 
     }
 }
