@@ -1,70 +1,51 @@
 ﻿using Project_3.DAL;
 using Project_3.Models.Entity;
+using System.Linq;
 
 namespace Project_3.Managers.Books
 {
-    public class BookManager:IBookManager
+    public class BookManager<T>:IBookManager<T> where T : class
     {
-        private LibraContext _context;
+        //private LibraContext _context;
+        //private DbSet<T> table =null;
 
-        public BookManager(LibraContext context)
-        {
-            _context = context;
-        }
-
-        //public ICollection<Book> GetAll()
+        //public BookManager(LibraContext context)
         //{
-        //    return _context.Books;
+        //    _context = context;
+        //    table = _context.set<T>();
         //}
 
-        public IEnumerable<Book> ShowTenBooks(int PageNumber) //  Возвращает 1 страницу (10 обьектов Book) из всего каталога с указанным номером
+        public void Delete(object id)
         {
-            IEnumerable<Book> Page = new List<Book>();
-            return Page;
+            throw new NotImplementedException();
+
+            // T existing =GetById (id)
+            // table.Remove(existing);
         }
 
-        public IEnumerable<Book> SelectBooksByAuthor(int PageNumber, int AuthorID) // Возвращает 1 страницу Book с указанным AuthorID
+        public IEnumerable<T> GetAll()
         {
-            IEnumerable<Book> Page = new List<Book>();
-            return Page;
+            throw new NotImplementedException();
+            //return table.ToList();
         }
 
-        public IEnumerable<Book> SelectBooksByGenre(int PageNumber, int GenreID) // Возвращает 1 страницу Book с указанным GenreID
+        public T GetById(object id)
         {
-            IEnumerable<Book> Page = new List<Book>();
-            return Page;
+            throw new NotImplementedException();
+            //return table.Find(id);
         }
 
-        public IEnumerable<Book> SelectBooksByType(int PageNumber, int TypeID) // Возвращает 1 страницу Book с указанным TypeID
+        public void Insert(T entity)
         {
-            IEnumerable<Book> Page = new List<Book>();
-            return Page;
+            throw new NotImplementedException();
+            //table.Add(entity);
         }
 
-        public IEnumerable<Book> SelectBooksByLanguage(int PageNumber, int LanguageID) // Возвращает 1 страницу Book с указанным LanguageID
+        public void Update(T entity)
         {
-            IEnumerable<Book> Page = new List<Book>();
-            return Page;
+            throw new NotImplementedException();
+            //table.Attach(entity);
+            //_context.Entry(entity).State = EntityState.Modified;
         }
-
-        public IEnumerable<Book> SelectBooksByCountry(int PageNumber, int CountryID) // Возвращает 1 страницу Book с указанным CountryID
-        {
-            IEnumerable<Book> Page = new List<Book>();
-            return Page;
-        }
-
-        public IEnumerable<Book> SortBooksByYearAscending(int PageNumber) // Возвращает 1 страницу Book , отсортированных по году издания в порядке возрастания
-        {
-            IEnumerable<Book> Page = new List<Book>();
-            return Page;
-        }
-
-        public IEnumerable<Book> SortBooksByYearDescending(int PageNumber) // Возвращает 1 страницу Book , отсортированных по году издания в порядке убывания
-        {
-            IEnumerable<Book> Page = new List<Book>();
-            return Page;
-        }
-
-        
     }
 }
