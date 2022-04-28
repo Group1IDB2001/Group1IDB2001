@@ -8,6 +8,13 @@
         public string Email { get; set; }
         public int Role { get; set; }
 
-
+        public User (string Name,string Password,string Mail,int R)
+        {
+            UserID = Guid.NewGuid();
+            UserName = Name;
+            this.Password = Password;
+            Email = Mail;
+            Role = R;
+        }
     }
 }

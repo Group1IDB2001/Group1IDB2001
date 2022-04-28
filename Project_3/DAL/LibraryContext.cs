@@ -26,9 +26,17 @@ namespace Project_3.DAL
         public LibraryContext ()
         {
             Authors = new List<Author> ();
-            Authors.Add(new Author("Антипо Павлович Чехов",1860,0,1904));
+            Authors.Add(new Author("Антон Павлович Чехов", 1860, 0, 1904));
+            Authors.Add(new Author("Лев Николаевич Толстой", 1828, 0, 1910));
+            Authors.Add(new Author("Джоан Роулинг", 1965, 1, 2022));
+            Authors.Add(new Author("Терри Пратчетт", 1948, 0, 2015));
             Languages = new List<Language> ();
 
+        }
+        Guid GetAuthorByName (string Name)
+        {
+            
+            return Guid.NewGuid ();
         }
 
     }

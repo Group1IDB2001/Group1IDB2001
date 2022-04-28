@@ -9,6 +9,14 @@
         public string? comment { get; set; }
         public int? rating { get; set; }
 
-
+        public Reaction (Guid User,Guid Entity,int Type,string text,int score)
+        {
+            ReactionId = Guid.NewGuid ();
+            UserID = User;
+            EntityID = Entity;
+            EntityType= Type;
+            comment = text;
+            rating = score;
+        }
     }
 }

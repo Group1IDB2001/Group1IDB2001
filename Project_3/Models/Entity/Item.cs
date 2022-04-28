@@ -31,7 +31,16 @@
 
         public int ItemYear { get; set; }
         public int[] Genres { get; set; }
-
+        public Item (string Name,Guid Country,string Description,string Cover,int Year,int[] Genres)
+        {
+            ItemID=Guid.NewGuid();
+            ItemName=Name;
+            CountryID=Country;
+            ItemDecription=Description;
+            ItemCover=Cover;
+            ItemYear=Year;
+            this.Genres = Genres;
+        }
 
     }
 }

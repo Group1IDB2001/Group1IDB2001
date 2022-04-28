@@ -14,5 +14,12 @@ public class TagEntity
         public Guid EntityID { get; set; }
         public int EntityType { get; set; }
         public Guid TagID { get; set; }
+        public TagEntity (Guid Entity,int Type,Guid Tag)
+        {
+            TagEntityId = Guid.NewGuid();
+            EntityID = Entity;
+            EntityType = Type;
+            TagID = Tag;
+        }
     }
 }
